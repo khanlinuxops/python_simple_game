@@ -2,10 +2,10 @@ import random
 
 def play_game():
     print("Welcome to the Number Guessing Game!")
-    print("I'm thinking of a number between 1 and 100.")
+    print("I'm thinking of a number between 1 and 50.")
     print("Can you guess it?")
 
-    number_to_guess = random.randint(1, 100)
+    number_to_guess = random.randint(1, 50)
     attempts = 0
 
     while True:
